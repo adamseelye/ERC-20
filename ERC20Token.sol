@@ -8,7 +8,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/extensions/IERC20Metadata.so
 import "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "openzeppelin-solidity/contracts/utils/Context.sol";
 
-contract SDVToken is Context, IERC20, IERC20Metadata {
+contract ERC20Token is Context, IERC20, IERC20Metadata {
     
     mapping(address => uint256) private _balances;
     mapping(address => mapping(address => uint256)) private _allowances;
